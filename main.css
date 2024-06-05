@@ -1,0 +1,550 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+			font-family:FrankensteinC Plain ;
+			src: url(1864-font.otf);
+			font-family: PARABOLA;
+			src: url(PARABOLA.ttf);
+}
+header{
+	width: 100%;
+	height: 120px;
+	background: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 1px;
+	z-index: 1;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.menu{
+	background-color: black;
+	height: 95%;
+	width: 85%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu-button{
+	font-family: FrankensteinC Plain;
+}
+.menu-button{
+	color: white;
+	font-size: 35px;
+	text-decoration: none;
+	transition: 0.7s;
+}
+.menu-button:hover{
+	color: rgb(101 0 112);
+}
+.home{
+	min-height: 1640px;
+	background-image: url(img/fon.jpg);
+}
+.home1{
+	min-height: 4500px;
+	background-image: url(img/fon.jpg);
+}
+.home2{
+	min-height: 1000px;
+	background-image: url(img/fon.jpg);
+}
+.grid-gallery{
+	width: 80%;
+	margin: 30px auto;
+	height: 1316px;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-auto-rows: 100px;
+	grid-gap: 20px;
+
+}
+.gallery{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.grid-elem1{
+	grid-column: span 6;
+	grid-row: span 2;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 85px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.text{
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+.grid-elem3{
+	font-size: 29px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	grid-column: span 2;
+	grid-row: span 1;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	background-color: black;
+	justify-content: center;
+	flex-direction: column;
+}
+.grid-elem2{
+	grid-column: span 4;
+	grid-row: span 4;
+	border-radius: 16px;
+	background-image: url(img/totu2.jpg);
+	background-position: center;
+	background-size: 155%;
+	background-repeat: no-repeat;
+	transition: 1.5s;
+}
+.grid-elem4{
+	grid-column: span 2;
+	grid-row: span 4;
+	border-radius: 16px;
+	background-image: url(img/totu3.jpeg);
+	background-position: center;
+	background-size: 155%;
+	background-repeat: no-repeat;
+	transition: 1.5s;
+}
+.grid-elem5{
+	grid-column: span 4;
+	grid-row: span 1;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	font-size: 30px;
+	background-color: black;
+	justify-content: center;
+}
+.grid-elem6{
+	grid-column: span 3;
+	grid-row: span 4;
+	border-radius: 16px;
+	background-image: url(img/totu4.jpg);
+	background-position: center;
+	background-size: 155%;
+	background-repeat: no-repeat;
+	transition: 1.5s;
+}
+.grid-elem7{
+	grid-column: span 3;
+	grid-row: span 3;
+	border-radius: 16px;
+	background-image: url(img/totu1.jpg);
+	background-position: center;
+	background-size: 155%;
+	background-repeat: no-repeat;
+	transition: 1.5s;
+}
+.grid-elem8{
+	font-size: 29px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	grid-column: span 3;
+	grid-row: span 1;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	background-color: black;
+	justify-content: center;
+}
+main{
+	position: relative;
+	z-index: 0;
+	top: 100px;
+}
+html{
+	cursor: url('https://img.icons8.com/external-others-pike-picture/50/external-Scroll-scroll-others-pike-picture-7.png') , auto;
+}
+.grid-elem2:hover{
+	background-size: 115%;
+}
+.grid-elem6:hover{
+	background-size: 115%;
+}
+.grid-elem4:hover{
+	background-size: 115%;
+}
+.grid-elem7:hover{
+	background-size: 115%;
+}
+.about-content{
+ 	width: 80%;
+ 	height: 1000px;
+ 	margin: 30px auto;
+}
+.about-h{
+	display: flex;
+	height: 15%;
+}
+.pic{
+	width: 15%;
+	background-color: white;
+}
+.about-p{
+	width: 85%;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 85px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inter{
+	width: 70%;
+	height: auto;
+	margin: 30px auto;
+}
+.gellery{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.first-p{
+	color: white;
+	font-size: 40px;
+	font-family: "Rubik Mono One" ;
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+}
+.second-p{
+	color: white;
+	font-size: 35px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 10%;
+	border-bottom: 1px solid white;
+}
+.p{
+	color: white;
+	font-size: 30px;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 1%;
+	padding-top: 5%;
+}
+.z{
+	color: white;
+	font-size: 25px;
+	width: 80%;
+	margin: 20px auto;
+
+}
+.s{
+ 	color: white;
+	font-size: 35px;
+	width: 80%;
+	margin: 20px auto;
+	border-bottom: 1px solid white;
+	padding-bottom: 2%;
+}
+.tattoo{
+	width: 100%;
+	height: 150px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 85px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tattoo1{
+	width: 100%;
+	height: 320px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 85px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tattoo2{
+	width: 100%;
+	height: 210px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 85px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-t{
+	color: white;
+	font-size: 35px;
+	width: 80%;
+	margin: 20px auto;
+	border-bottom: 1px solid white;
+	padding-bottom: 5%;
+	text-align: center;
+}
+.tatto{
+	width: 80%;
+	margin: 30px auto;
+}
+.main{
+	min-height: 2000px;
+}
+.main2{
+	height: 1000px;
+}
+.products{
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+.styles{
+	width: 100%;
+
+}
+.cards{
+	width: 50%;
+	position: relative;
+	left: 50%;
+	top: -160px;
+}
+.name{
+	width: 100%;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+.tatoo{
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: black;
+	padding: 15px;
+}
+.price1{
+	display: flex;
+	justify-content: space-between;
+
+}
+.price{
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+}
+.time{
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+}
+.styles{
+	margin: 15px;
+	color: white;
+	font-size: 27px;
+	text-decoration: none;
+	font-weight: bold;
+	width: 100%;
+	position: sticky;
+	top: 150px;
+}
+.info{
+	background-color: black;
+	width: 600px;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 15px;
+}
+.head{
+	display: flex;
+	width: 100%;
+ 	height: 150px;
+ 	margin: 30px auto;
+ 	background-color: black;
+ 	color: white;
+}
+.rev{
+	width: 60%;
+	font-size: 120px;
+	font-weight: bold;
+	font-family: "Rubik Mono One", monospace;
+}
+.reviews{
+	width: 80%;
+	height: 1500px;
+	margin: 10px auto;
+}
+.rev2{
+	width: 40%;
+	font-size: 45px;
+	margin-top: 14px;
+	font-family: PARABOLA;
+}
+.firsr-r{
+	border: 4px solid white;
+	border-radius: 16px;
+	width: 80%;
+	margin: 30px auto;
+	padding: 30px;
+}
+.rev-p{
+	color: white;
+	font-size: 25px;
+}
+.user-img{
+	width: 100px;
+	border-radius: 50%;
+
+}
+.user{
+	display: flex;
+	margin-top: 30px;
+	color: white;
+}
+.user-date{
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 50px;
+	font-size: 20px;
+	color: white;
+}
+.home2{
+	min-height: 1900px;
+	background-image: url(img/fon.jpg);
+}
+.contacts{
+	width: 80%;
+	margin: 30px auto;
+}
+.con{
+	width: 100%;
+	height: 150px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 85px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cont{
+	color: white;
+	font-size: 35px;
+	margin: 20px;
+}
+.text-con{
+	width: 370px;
+}
+.information{
+	display: flex;
+}
+.road{
+	width: 500px;
+	justify-content: end;
+}
+.navigator{
+	margin-left: 230px;
+}
+.photo{
+	width: 80%;
+	margin: 30px auto;
+	height: 1000px;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-auto-rows: 100px;
+	grid-gap: 20px;
+	margin-top: 100px;
+}
+.hoto{
+	grid-column: span 2;
+	grid-row: span 4;
+}
+li{
+	font-size: 32px;
+	color: white;
+	transition: 2s;
+}
+.list-p{
+	display: none;
+	transition: 2s;
+}
+li:hover .list-p{
+	display: block;
+
+}
+.list{
+	margin: 100px;
+}
+.faq-p{
+	width: 100%;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-size: 85px;
+	font-weight: bold;
+	text-align: center;
+	background-color: black;
+
+
+
+}
+.faq-h{
+	height: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+span{
+	color: rgb(101 0 112);
+}
